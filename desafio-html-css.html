@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HTML e CSS</title>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#imagem-senac {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+#titulo {
+    background-color: #005594;
+    color: #fff;
+    padding: 12px;
+    margin-top: 60px;
+    font-size: 32px;
+}
+
+.informacao {
+    background-color: #ef8f2c;
+    color: #fff;
+    padding: 12px;
+    margin-top: 10px
+}
+
+iframe {
+    margin-top: 20px
+}
+</style>
+
+<body>
+        <img id="imagem-senac" src="https://kaiquecovo.github.io/exercicios-em-html-e-css/image.png" alt="Logo Senac">
+        <H1 id="titulo">Meu nome é Renan Borges,</H1>
+        <p class="informacao">Eu sou um estudante do senac e estou aprendendo HTML e CSS.</p>
+        <p class="informacao">Estou adorando!</p>
+        <iframe src="https://giphy.com/embed/42YlR8u9gV5Cw" width="480" height="312" style="" frameBorder="0"
+            class="giphy-embed" allowFullScreen></iframe>
+</body>
+
+</html>
